@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cp ~/.vimrc ./
+cp -rf ~/.vim ./
+cp ~/.oh-my-zsh/themes/robbyrussell.zsh-theme ./
+[ -f  .vim/.netrwhist] && rm .vim/.netrwhist
+cp ~/.gitconfig ./
+cp ~/.tmux.conf ./
+
+git s
